@@ -7,6 +7,7 @@ public class TestgitHubTravisCITest
 {
 
 	public static final String CORRECT_HELLO_WORLD = "Hello World !";
+	public static final String INCORRECT_WORD = "Incorrect Word !";
 
 	@Test
 	public void whenWritingHelloWorldInConsole_shouldReturnWordsWrittenInConsole()
@@ -15,6 +16,6 @@ public class TestgitHubTravisCITest
 
 		String result = TestGitHubTravisCI.writeHelloWorldInConsole();
 
-		Assert.assertEquals(CORRECT_HELLO_WORLD, result);
+		Assert.assertEquals(INCORRECT_WORD, result);
 	}
 }
