@@ -12,10 +12,10 @@ public class TestgitHubTravisCITest
 	@Test
 	public void whenWritingHelloWorldInConsole_shouldReturnWordsWrittenInConsole()
 	{
-		TestGitHubTravisCI main = new TestGitHubTravisCI();
+		new TestGitHubTravisCI();
 
 		String result = TestGitHubTravisCI.writeHelloWorldInConsole();
 
-		Assert.assertEquals(INCORRECT_WORD, result);
+		Assert.assertEquals(CORRECT_HELLO_WORLD, result);
 	}
 }
