@@ -4,6 +4,7 @@ public class TestGitHubTravisCI
 {
 	public static void main(String[] args)
 	{
+		//Tests pour Travis :)
 		String result = writeHelloWorldInConsole();
 		System.out.println(result);
 	}
